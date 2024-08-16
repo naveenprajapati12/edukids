@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-    height: 50px;
+    height: 60px;
     color:black;
     display: flex;
     justify-content: space-between;
@@ -673,4 +673,148 @@ input[type="radio"]{
     color: white;
     font-size: 1rem;
     font-family: fredoka;
+}
+
+.teachers {
+    height: 700px;
+    padding-top: 100px;
+   
+}
+
+.teachers h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.teachers p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.teachers-hero {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.tech-1 {
+    height: 300px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teach-name {
+    height: 65px;
+    width: 200px;
+    background-color: #d1f2f0;
+    margin-top: 240px;
+    border-radius: 20px;  
+}
+.teach-name h1{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.teach-name p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: -10px;
+}
+.rec-dot {
+    height: 50px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dot_1 {
+    height: 10px;
+    width: 20px;
+    background-color: black;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.dot_2 {
+    height: 10px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: rgb(152, 149, 149);
+    border-radius: 10px;
+}
+
+.dot_3 {
+    height: 10px;
+    width: 20px;
+    background-color: rgb(152, 149, 149);
+    border-radius: 10px;
+}
+.news-letter {
+    background-image: linear-gradient( to right, rgba(25,193,182,0.7), rgba(25,193,182,0.7)) ,url(Assets/For\ Search.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.News {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50% , -50%);
+  color: white;
+
+}
+.int{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50% , -50%);
+    padding-top: -100px;
+
+}
+
+
+.int1 {
+    height: 50px;
+    width: 600px;
+    border-radius: 30px;
+    border-style: none;
+    border-color: white;
+    font-family: fredoka;
+    font-size: 1rem;
+    padding-left: 30px;
+
+}
+.int1 button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50% , -50%);
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 540px;
+    margin-top: 3px;
+    background-color: orange;
+    color:white;
+    font-size: 1rem;
+    font-family: fredoka;
+    border-style: none;   
+}
+.int1 i {
+    
+    font-size: 1rem;
+    padding-right: 10px;
+    color: white;
+    margin-top: -9px;
 }
