@@ -676,9 +676,9 @@ input[type="radio"]{
 }
 
 .teachers {
-    height: 700px;
+    height: 600px;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
    
 }
 
@@ -694,7 +694,7 @@ input[type="radio"]{
 }
 
 .teachers-hero {
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -718,7 +718,8 @@ input[type="radio"]{
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    margin-top: 15px;
+    padding-top: 12px;
+   
 }
 
 .teach-name p{
@@ -728,7 +729,7 @@ input[type="radio"]{
 }
 .rec-dot {
     height: 50px;
-    margin-top: -80px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -766,21 +767,15 @@ input[type="radio"]{
 
 .News {
   text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50% , -50%);
+  
   color: white;
-
-}
-.int{
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50% , -50%);
-    padding-top: -100px;
+  padding-top: 200px;
 
 }
 
+.News p  {
+    padding-bottom: 40px;
+}
 
 .int1 {
     height: 50px;
@@ -791,17 +786,17 @@ input[type="radio"]{
     font-family: fredoka;
     font-size: 1rem;
     padding-left: 30px;
+    margin-top: -49px;
+    
 
 }
 .int1 button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50% , -50%);
     height: 40px;
     width: 200px;
     border-radius: 30px;
     margin-left: 540px;
     margin-top: 3px;
+    margin-left: 840px;
     background-color: orange;
     color:white;
     font-size: 1rem;
@@ -815,3 +810,42 @@ input[type="radio"]{
     color: white;
     margin-top: -9px;
 }
+
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, hsla(40, 90%, 96%, 1) 0%, hsla(176, 56%, 88%, 1) 90%);
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.logo_2 {
+    height: 50px;
+    width: 150px;
+    padding: 30px;
+
+}
+
+.log2 {
+    height: 50px;
+    width:100%;
+    background-image: url(Assets/logo.png);
+    background-size: cover;
+}
+.txt-foot p {
+    height: 150px;
+    width: 350px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.links-quick1 { 
+    padding-top: 64px;
+    margin-right: 100px;
+
+}
+.links-quick1 h1 {
+    font-size: 1.5 rem;
+    font-weight: bolder;
+} 
